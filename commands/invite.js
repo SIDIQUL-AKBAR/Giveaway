@@ -7,11 +7,11 @@ module.exports.run = async (client, message, args) => {
         new ButtonBuilder()
         .setLabel(`Invite ${client.user.username}`)
         .setStyle(ButtonStyle.Link)
-        .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=applications.commands%20bot`),
+        .setURL(`https://discord.com/oauth2/authorize?client_id=1513767218821988492&permissions=70922291768432&integration_type=0&scope=bot`),
         new ButtonBuilder()
         .setLabel('Support Server')
         .setStyle(ButtonStyle.Link)
-        .setURL("https://discord.gg/ARu4hr6hJw"),
+        .setURL("https://discord.gg/JQbThGUns"),
     )
     let invite = new EmbedBuilder()
      .setAuthor({ 

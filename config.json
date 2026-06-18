@@ -1,7 +1,7 @@
 {
   "token": "BotTokenHere", 
-  "prefix": "PrefixHere",
+  "prefix": "$",
   "everyoneMention": false,
-  "copyright": "GiveawayBot™ v3 By ZeroSync",
+  "copyright": "GiveawayBot chill verse",
   "hostedBy": true
 }

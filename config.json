@@ -1,6 +1,6 @@
 {
   "token": "BotTokenHere", 
-  "prefix": "$",
+  "prefix": "PrefixHere",
   "everyoneMention": false,
   "copyright": "GiveawayBot chill verse",
   "hostedBy": true

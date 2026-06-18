@@ -12,10 +12,10 @@ module.exports = async (client) => {
   });
   // Register slash commands - ( If you are one of those people who read the codes I highly suggest ignoring this because I am very bad at what I am doing, thanks LMAO )
   console.log(`[ / | Slash Command ] - ✅ Loaded all slash commands!`)
-  let invite = `https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=applications.commands%20bot`;
-  console.log(`[STATUS] ${client.user.tag} is now online!\n[INFO] Bot by ZeroSync https://www.youtube.com/c/ZeroSync\n[Invite Link] ${invite}`);
+  let invite = `https://discord.com/oauth2/authorize?client_id=1513767218821988492&permissions=70922291768432&integration_type=0&scope=bot`;
+  console.log(`[STATUS] ${client.user.tag} is now online!\n[INFO] Bot by SIDDUZZZ https://www.youtube.com/@mastercotutorials\n[Invite Link] ${invite}`);
   client.user.setPresence({
-  activities: [{ name: `ZeroSync on YouTube`, type: ActivityType.Watching }],
+  activities: [{ name: `MASTERCOTUTORIALS on YouTube`, type: ActivityType.Watching }],
   status: 'online',
 });
 
